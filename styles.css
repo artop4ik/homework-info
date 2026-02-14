@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: #2f5d50;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: #2f5d50;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-content img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.books {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.book {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.book img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #1f4037;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer input {
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer button {
+    padding: 8px 15px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
